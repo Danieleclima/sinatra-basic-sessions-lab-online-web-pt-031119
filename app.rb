@@ -12,7 +12,7 @@ get '/' do
 end
 
 post '/checkout' do
-  session = params
+  session[params]
 end 
 
 end

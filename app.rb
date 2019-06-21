@@ -12,7 +12,9 @@ get '/' do
 end
 
 post '/checkout' do
-  session[params]
+  binding.pry
+  session
+  
 end 
 
 end

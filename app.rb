@@ -13,7 +13,8 @@ end
 
 post '/checkout' do
   binding.pry
-  session
+  hash = params
+  session[hash]
   
 end 
 

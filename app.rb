@@ -14,7 +14,7 @@ end
 post '/checkout' do
   binding.pry
   hash = params
-  session[hash]
+  session[:item] = params[:item]
   
 end 
 
